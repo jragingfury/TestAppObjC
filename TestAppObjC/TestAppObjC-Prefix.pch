@@ -1,0 +1,16 @@
+//
+//  TestAppObjC-Prefix.pch
+//  TestAppObjC
+//
+//  Created by Jay Burgess on 10/27/21.
+//
+
+#ifndef TestAppObjC_Prefix_pch
+#define TestAppObjC_Prefix_pch
+
+#define LOG_LEVEL_DEF ddLogLevel
+@import CocoaLumberjack;
+
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+
+#endif /* TestAppObjC_Prefix_pch */
